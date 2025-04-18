@@ -163,3 +163,4 @@ haystack/json-schemas
 
 # Zed configs
 .zed/*
+document_embeddings_cache.pkl

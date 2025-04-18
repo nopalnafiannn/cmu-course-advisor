@@ -1,0 +1,28 @@
+# 94-719: Budgetary Planning and Analysis
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+This course focuses on budgeting and analytical techniques that are a key part of strategic planning and controlling operations of any organization. It emphasizes the fundamental elements of budgeting, variances analysis and managerial decision making which are valuable skills for effective leaders. Management control of an organization through various financial metrics helps to ensure organizations reach their goals through systematic processes and optimum allocation of resources. This will result in organizations achieving their strategic goals leading to sustainability and future growth.
+
+## Learning Outcomes
+
+1. Syllabus (Jillian Stephenson - F24)
+
+## Prerequisites
+
+90723 - Financial Statements and Analysis or 95719 - Accounting and Finance Analytics
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/491914
+
+## Metadata
+
+**Course Number:** 94-719
+**Title:** Budgetary Planning and Analysis
+**Units:** 6
+**Key Terms:** It emphasizes the fundamental elements of budgeting, This will result in organizations achieving their strategic goals leading to sustainability and future growth, This course focuses on budgeting and analytical techniques that are a key part of strategic planning and controlling operations of any organization, reach their goals through systematic processes and optimum allocation of resources, Management control of an organization through various financial metrics helps to ensure organizations reach their goals through systematic processes and optimum allocation of resources, result in organizations achieving their strategic goals leading to sustainability and future growth

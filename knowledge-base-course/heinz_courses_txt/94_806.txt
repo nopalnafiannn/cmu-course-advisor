@@ -1,0 +1,32 @@
+# 94-806: Privacy in the Digital Age
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+Privacy is a complex and multi-faceted concept. This course combines technical, economic, legal, psychological, ethical, and policy perspectives to present a holistic view of its role and function in the digital age. The reduction of the cost of storing and manipulating information has led organizations to capture increasing amounts of information about individual behavior. New trade-offs have emerged for parties involved with privacy-enhancing or intrusive technologies: individuals want to avoid the misuse of the information they pass along to others, but they also want to share enough information to achieve satisfactory interactions; organizations want to know more about the parties with whom they interact, but they do not want to alienate them with policies deemed as intrusive. Is there a “sweet” spot that satisfies the interests of all parties? Is there a combination of technological solutions, economic incentives, and legal safeguards that is acceptable for the individual and beneficial to society? This course tries to address the above questions. Note: while many of the topics covered in the course may include information of practical relevance to privacy professionals (that is, those of you specifically interested in managing privacy issues in the workplace), please note that the primary learning objective of this course is broader and more conceptual: it is about providing students with a holistic view of the role and function of privacy in the digital age, and a critical understanding of its many different dimensions (economic, technological, policy, and so forth), so that the students may be equipped to apply that knowledge across different environments, including policy-making, industry, and research. Students specifically interested in privacy management may be able to focus on that type of material by enrolling in some of the other privacy courses offered at Heinz and in programs such as the Master in Privacy Engineering.
+
+## Learning Outcomes
+
+1. technological aspects of privacy (privacy concerns raised by new IT such as the Internet, wireless communications, and computer matching; tracking techniques and data mining; privacy enhancing technologies and anonymous protocols, …),
+2. economic aspects (economic models of the market for privacy, financial risks caused by privacy violations, the value of customer information, …),
+3. legal aspects (laissez-faire versus regulated approaches, US versus EU legal safeguards, …),
+4. managerial implications (the emerging role of Chief Privacy Officers, compulsory directives and self-regulative efforts, …), and
+5. policy aspects (trade-offs between individual privacy rights and societal needs, …)
+
+## Prerequisites
+
+None.
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/422994
+
+## Metadata
+
+**Course Number:** 94-806
+**Title:** Privacy in the Digital Age
+**Units:** 6
+**Key Terms:** This course combines technical, relevance to privacy professionals, Privacy is a complex and multi, Is there a, New trade, Note, research, role and function of privacy in the digital age, role and function in the digital age, Is there a combination of technological solutions

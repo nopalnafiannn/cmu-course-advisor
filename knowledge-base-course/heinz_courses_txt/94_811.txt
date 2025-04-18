@@ -1,0 +1,30 @@
+# 94-811: Strategy Development
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+This course introduces students to frameworks for understanding strategy development and implementation. Through a combination of theory and practice, students will be exposed to processes for formulating a sound, rational business strategy as well as the discipline required to successfully implement that strategy. Classic strategy articles and cases from Harvard Business School are utilized in the course. Course activities and concepts include: 1) industry analysis, 2) internal capabilities assessment, and 3) appropriate linkage to an organization's vision, mission, objectives, and historical performance. In addition, although these processes are most often attributed to private sector operations, this course is designed to consider the similarities and differences of strategy development in government entities and nonprofits as well. There are no prerequisite courses.
+
+## Learning Outcomes
+
+1. Syllabus (Laura Synnott - S25)
+2. Syllabus (Laura Synnott - F24)
+
+## Prerequisites
+
+None.
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/495450
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/456729
+
+## Metadata
+
+**Course Number:** 94-811
+**Title:** Strategy Development
+**Units:** 6
+**Key Terms:** In addition, There are no prerequisite courses, rational business strategy as well as the discipline required to successfully implement that strategy, Course activities and concepts include, This course introduces students to frameworks for understanding strategy development and implementation, Through a combination of theory and practice, Classic strategy articles and cases from Harvard Business School are utilized in the course

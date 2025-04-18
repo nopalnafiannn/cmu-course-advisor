@@ -1,0 +1,32 @@
+# 94-802: Geographic Information Systems
+
+## Course Information
+
+**Units:** 12
+
+## Description
+
+A Geographic Information System (GIS) provides storage, retrieval, and visualization of geographically referenced data as well as design and analysis of spatial information. GIS provides unique analytical tools to investigate spatial relationships, patterns, and processes of cultural, biological, demographic, economic, social, environmental, health care, criminal, and other phenomena. The course uses asynchronous video lectures for a deep understanding of GIS, supplemented by in-person or Zoom lectures and weekly office hours for personal interaction. Software tutorials are used to learn industry-leading tools from Esri Inc., including ArcGIS Pro, ArcGIS Online, ArcGIS Map Viewer, ArcGIS Story Maps, and Dashboards. Subject areas span a broad array of disciplines including but not limited to architecture, data analytics, education, engineering, environmental studies, health, public policy, sustainability, urban design, planning, and transportation.
+
+## Learning Outcomes
+
+1. Identify and structure the spatial characteristics of diverse application areas for spatial data visualization, design, and analysis.
+2. Search for, access, and use the world’s quickly growing geospatial data infrastructure.
+3. Become a skillful user of leading GIS software.
+4. Have an ability to use geospatial technologies to gain a significant advantage in architecture, urban design, engineering, computer science, information technology, public policy, and data analytics fields.
+
+## Prerequisites
+
+90728 or 90838 or 91802
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/496305
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/456220
+
+## Metadata
+
+**Course Number:** 94-802
+**Title:** Geographic Information Systems
+**Units:** 12
+**Key Terms:** analytics, ArcGIS Online, ArcGIS Story Maps, ArcGIS Pro, relationships, GIS provides unique analytical tools to investigate spatial relationships, Esri Inc, ArcGIS Map Viewer, The course uses asynchronous video lectures for a deep understanding of GIS, retrieval

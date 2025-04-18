@@ -1,0 +1,31 @@
+# 94-703: Demystifying AI
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+94-703:: Demystifying AI This course provides an overview of technical underpinnings of Artificial Intelligence (AI) for those without a background in programming. This course provides a deep dive into the core principles of AI, including machine learning, data analysis, and the mechanics behind technologies such as computer vision and large language models. Through engaging, no-code platforms, students will gain hands-on experience with the tools and techniques driving today's AI innovations. By dissecting real-world applications and their underlying algorithms, this approach ensures that students can critically evaluate and employ AI technologies within their disciplines, laying the groundwork for future exploration and responsible application of AI in societal and policy contexts. (Students with prior Python programming experience are requested to register for 95-891 Introduction to Artificial Intelligence.)
+
+## Learning Outcomes
+
+1. Comprehend and explain core AI concepts: Students will be able to explain fundamental AI and machine learning concepts, including different types of machine learning (supervised, unsupervised, reinforcement learning), neural networks, and the role of data in AI systems.
+2. Evaluate AI applications and Their Implications: Students will develop the ability to critically assess AI applications, identifying their capabilities, limitations, and potential impacts on society, organizations, and policy-making.
+3. Apply AI tools and techniques: Using no-code platforms, students will gain practical experience implementing and customizing AI solutions, demonstrating their understanding through hands-on projects.
+4. Analyze AI ethics and governance: Students will be able to identify and analyze ethical considerations, bias issues, and governance challenges in AI implementations, and propose appropriate mitigation strategies.
+
+## Prerequisites
+
+This course is intended for students without previous background in artificial intelligence. However some data skills are reuired and other knowledge as listed below is helpful. This class is not open to students with prior AI courses such as Intro to AI or Machine Learning for Problem Solving. Prerequisites: Basic statistics knowledge (descriptive statistics, probability concepts, and basic inferential statistics) Familiarity with spreadsheet applications (e.g., Excel) Basic data literacy (ability to read and interpret charts, graphs, and basic data visualizations) Recommended Background (not required but helpful): Experience with business analytics or policy analysis Exposure to basic logic and algorithmic thinking Familiarity with technology policy issues Anti-requisite: Students with Python programming experience should take 95-891 Introduction to Artificial Intelligence instead
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/477266
+
+## Metadata
+
+**Course Number:** 94-703
+**Title:** Demystifying AI
+**Units:** 6
+**Key Terms:** AI innovations, AI in societal and policy contexts, Students with prior Python programming experience are requested to register for, Demystifying AI This course provides an overview of technical underpinnings of Artificial Intelligence, machine learning, real, AI technologies within their disciplines, Introduction to Artificial Intelligence, responsible application of AI in societal and policy contexts, Through engaging

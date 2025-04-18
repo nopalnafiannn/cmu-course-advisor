@@ -1,0 +1,34 @@
+# 93-873: Film Exhibition
+
+## Course Information
+
+**Units:** 3
+
+## Description
+
+I. Rationale: The Film exhibition Industry is a key part of the Entertainment Industry. It has been in constant evolution, now perhaps more than ever. Understanding the drivers, trends, challenges and opportunities of the industry is key to drive innovation in Entertainment. II. Course Aims and Objectives: At the end of the course, students will be able to understand and identify the critical factors in the success of film exhibition management in order to make the best decisions based on strategic, financial and customer experience perspectives. The course will allow students to contribute value to any of the three perspectives of the film industry´s value chain: production, distribution or exhibition.
+
+## Learning Outcomes
+
+1. Understand the history and state of the industry considering global results, macro trends, new players, and main challenges.
+2. Understand the financial rationale behind the exhibition industry.
+3. Identify the key drivers of the future of the industry and analyze probable shifts in its value chain.
+4. Analyze a real world case of a cinema exhibition company including its history, current strategy and future plans
+5. Understand how current events affect the industry and propose solutions and innovative ideas for a specific case.
+6. Analyze the impact of the storytelling as the core of the cinematic experience.
+7. Develop and propose an innovation process to the Exhibition Industry using the Design Thinking framework.
+
+## Prerequisites
+
+None
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/500370
+
+## Metadata
+
+**Course Number:** 93-873
+**Title:** Film Exhibition
+**Units:** 3
+**Key Terms:** The course will allow students to contribute value to any of the three perspectives of the film industry, It has been in constant evolution, The Film exhibition Industry is a key part of the Entertainment Industry, Rationale, Entertainment, Understanding the drivers, Course Aims and Objectives, At the end of the course, Aims and Objectives

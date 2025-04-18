@@ -1,0 +1,16 @@
+# 94-216: Introduction to Decision Analytics and Systems
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+This course is for undergraduate students pursuing the DAS minor only. Graduate students should enroll in 94-716. This course introduces students to the analytics toolkit (data systems, Operations Research, Machine Learning, Statistics. and causal inference) and what it takes to use formulate problems, scope them and understand how to intervene to support decision making to achieve policy objectives. In short, it introduces you to the art and science of translating analytics into action using "curated examples" and case studies from the real world. These case studies will introduce you to key elements of the data-driven and model-based approaches to decision-making. The approaches you will be exposed to in this course find wide application. Examples include the creation of transportation systems (bus, on-demand rideshare, bike share) to equitably serve all neighborhoods, the responsible use of AI in systems to hire people for positions, and optimally delivering covid vaccine boosters to disadvantaged and hard to reach populations.
+
+## Metadata
+
+**Course Number:** 94-216
+**Title:** Introduction to Decision Analytics and Systems
+**Units:** 6
+**Key Terms:** responsible use of AI in systems to hire people for positions, Research, analytics into action using, This course introduces students to the analytics toolkit, AI in systems to hire people for positions, Statistics, Examples include the creation of transportation systems, This course is for undergraduate students pursuing the DAS minor only, Graduate students should enroll in, analytics toolkit

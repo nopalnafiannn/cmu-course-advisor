@@ -1,0 +1,28 @@
+# 94-718: Communication in XR
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+As we keep pace with rapidly changing VR technology, students engage as iterative design partners to develop best practice strategies to communicate effectively in diverse VR environments. This course addresses the following areas of VR exploration: (1) building professional relationships through avatar interactions; (2) improving communication skills to foster teamwork and collaboration; (3) discussing data through visualization apps; and (4) delivering effective presentations and training programs for a targeted audience.
+
+## Learning Outcomes
+
+1. Syllabus (Kim Hyatt - S25)
+
+## Prerequisites
+
+None
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/491911
+
+## Metadata
+
+**Course Number:** 94-718
+**Title:** Communication in XR
+**Units:** 6
+**Key Terms:** VR environments, This course addresses the following areas of VR exploration, rapidly changing VR technology, As we keep pace with rapidly changing VR technology, relationships through avatar interactions

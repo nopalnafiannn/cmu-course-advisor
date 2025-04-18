@@ -1,0 +1,29 @@
+# 94-705: Health Economics
+
+## Course Information
+
+**Units:** 12
+
+## Description
+
+The purpose of this course is to introduce the student to the methods of health economics and demonstrate how these methods can be applied to analyze issues in health policy and management. This course will teach the student to use economic analysis to understand critical issues in health care and health policy. We will address issues such as the following: What factors best explain the level and rate of growth of U.S. health expenditures? Does the recent high rate of growth of U.S. health care expenditures make U.S. firms less competitive in international markets? What are some of the likely consequences (intended and unintended) of Federal health care reform? What are the impacts of health care consolidation? What is required for the ACA's health insurance exchanges to work well?
+
+## Learning Outcomes
+
+1. Identify the flow of resources in the U.S. health care system, how purchasers pay for their services, and how providers obtain their revenues.
+2. Understand the value of health and health care.
+3. Evaluate how health care resources should be allocated.
+4. Describe the structure of the health insurance industry, explain the incentives facing insurers, understand the strategies they use to compete and their impacts on social welfare.
+5. Understand the demand for medical care, and what role providers play in shaping this demand.
+6. Explain how competition works in health care.
+
+## Prerequisites
+
+Probability and statistics. Basic algebra.
+
+## Metadata
+
+**Course Number:** 94-705
+**Title:** Health Economics
+**Units:** 12
+**Key Terms:** What factors best explain the level and rate of growth of U, What are the impacts of health care consolidation, What is required for the ACA, recent high rate of growth of U, This course will teach the student to use economic analysis to understand critical issues in health care and health policy, We will address issues such as the following, reform, What are some of the likely consequences, Federal health care reform, Does the recent high rate of growth of U

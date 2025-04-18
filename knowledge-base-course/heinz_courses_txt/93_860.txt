@@ -1,0 +1,32 @@
+# 93-860: What Makes Us Play: Craft of Video Game
+
+## Course Information
+
+**Units:** 4
+
+## Description
+
+Games have existed for almost as long as humans have walked the earth, but the video gaming industry has emerged as an economic powerhouse in recent decades. The ability to create and manipulate digital worlds completely … well, changed the game. But what differentiates a successful game from a failure? What draws people to games, and what keeps people coming back? In this short class, students will explore the basics of game design and learn how today’s most successful game developers connect a solid game design with the realities of game development in order to captivate and entertain players. This course touches on a wide variety of topics drawn from cognitive psychology, human-computer interaction, visual design, storytelling, software engineering, marketing, and the business world to paint a broad picture of the art and craft of gaming, giving students the basic ability to understand what conditions are necessary for a great game to thrive. Students will be expected to approach gaming with an open mind and get hands-on with a few games to apply the learnings in class to critical review of industry work.
+
+## Learning Outcomes
+
+1. Recognize the fundamental principles of game design and development
+2. Understand the difference between traditional and live service games, and how the game design challenges differ for each model
+3. Connect the game design and production considerations in class to current events in the game industry
+4. Evaluate how the game industry defines, approaches, and works with “fun” and player behavior
+5. Reflect upon the social aspects of gaming including multiplayer and online experiences
+
+## Prerequisites
+
+No formal pre-requisites.
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/477268
+
+## Metadata
+
+**Course Number:** 93-860
+**Title:** What Makes Us Play: Craft of Video Game
+**Units:** 4
+**Key Terms:** This course touches on a wide variety of topics drawn from cognitive psychology, What draws people to games, The ability to create and manipulate digital worlds completely, Students will be expected to approach gaming with an open mind and get hands, Games have existed for almost as long as humans have walked the earth, recent decades, review of industry work, realities of game development in order to captivate and entertain players, But what differentiates a successful game from a failure, In this short class

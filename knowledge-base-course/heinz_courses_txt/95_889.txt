@@ -1,0 +1,63 @@
+# 95-889: Applied Threat Analysis
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+The role of Cyber Threat Analysts is to aggregate and fuse disparate data sources to provide actionable information to decision makers in industry as well as both the federal and civilian government. More and more these sectors are relying on analysts who have a deep understanding of the ecosystem and the risks contained therein to better understand the cyber threats that they are facing. This course seeks to provide a richer context and a basis for understanding the evolving nature of cyber threats. This class will discuss the relationship between vulnerabilities, exploits, and malware. In addition this class will also explore the value of host based or network indicators and other indicators of compromise. Finally we will discuss the continuum of threat actors and why sometimes the greatest threat is from within.
+
+## Learning Outcomes
+
+1. Understanding Cyber Threat Ecosystem: Develop a comprehensive understanding of the cyber threat landscape, including the different types of threats and actors involved. Identify the key components of the cyber threat ecosystem and their interrelationships.
+2. Develop a comprehensive understanding of the cyber threat landscape, including the different types of threats and actors involved.
+3. Identify the key components of the cyber threat ecosystem and their interrelationships.
+4. Data Aggregation and Fusion: Learn techniques to aggregate and fuse disparate data sources effectively. Analyze real-world scenarios to practice data fusion for providing actionable information.
+5. Learn techniques to aggregate and fuse disparate data sources effectively.
+6. Analyze real-world scenarios to practice data fusion for providing actionable information.
+7. Threat Intelligence Analysis: Gain proficiency in analyzing and interpreting threat intelligence data. Understand how to transform raw data into actionable insights for decision-makers.
+8. Gain proficiency in analyzing and interpreting threat intelligence data.
+9. Understand how to transform raw data into actionable insights for decision-makers.
+10. Vulnerabilities, Exploits, and Malware: Explore the relationship between vulnerabilities, exploits, and malware. Learn how to identify and assess vulnerabilities and their potential impact.
+11. Explore the relationship between vulnerabilities, exploits, and malware.
+12. Learn how to identify and assess vulnerabilities and their potential impact.
+13. Indicators of Compromise (IoCs): Examine the value of host-based and network indicators of compromise. Learn how to identify and use IoCs to detect and respond to cyber threats.
+14. Examine the value of host-based and network indicators of compromise.
+15. Learn how to identify and use IoCs to detect and respond to cyber threats.
+16. Threat Actor Profiling: Understand the different types of threat actors, from nation-states to insider threats. Analyze the motivations, tactics, and techniques of various threat actors.
+17. Understand the different types of threat actors, from nation-states to insider threats.
+18. Analyze the motivations, tactics, and techniques of various threat actors.
+19. Risk Assessment and Mitigation: Develop skills to assess the level of risk posed by specific cyber threats. Explore strategies and best practices for mitigating and managing cyber risks.
+20. Develop skills to assess the level of risk posed by specific cyber threats.
+21. Explore strategies and best practices for mitigating and managing cyber risks.
+22. Incident Response: Gain insights into the incident response process and how to handle cybersecurity incidents effectively. Learn to create incident response plans and execute them in a real-world context.
+23. Gain insights into the incident response process and how to handle cybersecurity incidents effectively.
+24. Learn to create incident response plans and execute them in a real-world context.
+25. Policy and Compliance: Understand the regulatory and compliance requirements relevant to cybersecurity. Learn to align cyber threat analysis with industry and government regulations.
+26. Understand the regulatory and compliance requirements relevant to cybersecurity.
+27. Learn to align cyber threat analysis with industry and government regulations.
+28. Communication and Reporting: Improve communication skills to convey complex technical information to non-technical stakeholders. Develop the ability to produce concise and actionable reports for decision-makers.
+29. Improve communication skills to convey complex technical information to non-technical stakeholders.
+30. Develop the ability to produce concise and actionable reports for decision-makers.
+31. Ethical and Legal Considerations: Gain awareness of ethical considerations and legal responsibilities in the field of cyber threat analysis. Learn about the ethical dilemmas and compliance requirements associated with threat analysis.
+32. Gain awareness of ethical considerations and legal responsibilities in the field of cyber threat analysis.
+33. Learn about the ethical dilemmas and compliance requirements associated with threat analysis.
+34. Hands-On Experience: Gain practical experience through labs, simulations, or real-world case studies. Apply the knowledge acquired in the course to solve practical problems in the field.
+35. Gain practical experience through labs, simulations, or real-world case studies.
+36. Apply the knowledge acquired in the course to solve practical problems in the field.
+
+## Prerequisites
+
+Basic Cybersecurity Knowledge: Participants should have a fundamental understanding of cybersecurity concepts, including terminology, principles, and common threats. They should be familiar with concepts like malware, hacking, and cybersecurity best practices. Networking Fundamentals: An understanding of basic networking concepts, protocols, and technologies is essential. This knowledge provides the foundation for understanding network-based threats and indicators of compromise. Operating System Knowledge: Proficiency in common operating systems (e.g., Windows, Linux, macOS) is important. Participants should be able to navigate and configure these systems. Information Security Fundamentals: Familiarity with concepts such as encryption, authentication, access control, and security policies is beneficial. Programming and Scripting Skills: Basic programming and scripting skills (e.g., Python) are useful for automating tasks and analyzing data. Many cyber threat analysis tasks involve working with data, so scripting abilities can be valuable. Risk Management and Compliance: A foundational understanding of risk management principles and compliance requirements can be beneficial for grasping the importance of risk assessment and mitigation in cybersecurity. Security Tools and Technologies: Familiarity with common security tools and technologies used in threat analysis, such as intrusion detection systems (IDS), intrusion prevention systems (IPS), antivirus software, and firewalls, is helpful. Critical Thinking and Problem-Solving: Cyber threat analysis often involves complex problem-solving. Participants should have strong critical thinking skills and the ability to analyze situations, make informed decisions, and adapt to evolving threats. Ethical and Legal Awareness: Awareness of ethical considerations and legal implications in the cybersecurity field is important. Participants should understand the legal and ethical responsibilities associated with handling cybersecurity incidents and data. Communication Skills: Effective communication skills, both written and verbal, are crucial. Participants should be able to convey technical information to non-technical stakeholders and produce clear and actionable reports.
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/499200
+
+## Metadata
+
+**Course Number:** 95-889
+**Title:** Applied Threat Analysis
+**Units:** 6
+**Key Terms:** relationship between vulnerabilities, In addition this class will also explore the value of host based or network indicators and other indicators of compromise, relying on analysts who have a deep understanding of the ecosystem and the risks contained therein to better understand the cyber threats that they are facing, Finally we will discuss the continuum of threat actors and why sometimes the greatest threat is from within, This course seeks to provide a richer context and a basis for understanding the evolving nature of cyber threats, role of Cyber Threat Analysts is to aggregate and fuse disparate data sources to provide actionable information to decision makers in industry as well as both the federal and civilian government, This class will discuss the relationship between vulnerabilities, richer context and a basis for understanding the evolving nature of cyber threats, More and more these sectors are relying on analysts who have a deep understanding of the ecosystem and the risks contained therein to better understand the cyber threats that they are facing, The role of Cyber Threat Analysts is to aggregate and fuse disparate data sources to provide actionable information to decision makers in industry as well as both the federal and civilian government

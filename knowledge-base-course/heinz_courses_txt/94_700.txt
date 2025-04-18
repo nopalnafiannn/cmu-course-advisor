@@ -1,0 +1,36 @@
+# 94-700: Organizational Design & Implementation
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+This course is designed to improve your effectiveness as a manager by introducing you to frameworks for understanding organizations and organizational processes. Organizations have been studied from the perspective of several social science disciplines, including psychology, sociology, economics, anthropology and political science. The fi eld on which this course is based, organizational behavior, draws from all of these disciplines and applies the insights derived from the pertinent research. This course will introduce you to this research and ways to apply the knowledge to particular situations through class discussion of cases.
+
+## Learning Outcomes
+
+1. Defi ne how power is used in organizations, the differences between power and authority and the role of networks in building organizational power.
+2. Recognize the decision-making processes used in organizations and the ethical dilemmas decision-makers face.
+3. Appreciate cultural differences in management styles and expectations and be able to adapt to those differences.
+4. Understand the role of leaders in managing change.
+5. Form a personal perspective, framed by the debates on corporate governance, on who corporations should serve.
+
+## Prerequisites
+
+None
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/477030
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/473635
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/422991
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/455963
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/426755
+
+## Metadata
+
+**Course Number:** 94-700
+**Title:** Organizational Design & Implementation
+**Units:** 6
+**Key Terms:** This course will introduce you to this research and ways to apply the knowledge to particular situations through class discussion of cases, research and ways to apply the knowledge to particular situations through class discussion of cases, research, The fi eld on which this course is based, Organizations have been studied from the perspective of several social science disciplines, This course is designed to improve your effectiveness as a manager by introducing you to frameworks for understanding organizations and organizational processes

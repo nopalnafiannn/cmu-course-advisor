@@ -1,0 +1,31 @@
+# 95-891: Introduction to Artificial Intelligence
+
+## Course Information
+
+**Units:** 12
+
+## Description
+
+Driven by the combination of increased access to data, computational power, and improved sensors and algorithms, artificial intelligence (AI) technologies are entering the mainstream of technological innovation. These technologies include search, computer vision, and natural language processing The course begins by describing artificial intelligence and provide some examples of AI applications to place developments in the field in historical perspective. We will then do a deep dive into some of the applications underlying search, several varieties of machine learning, computer vision, and natural language processing. The course concludes with a discussion of ethical implications of AI, and a glimpse into potential futures of AI. Exercises will include hands-on application of basic AI techniques as well as selection of appropriate technologies for a given problem and anticipation of design implications. In a final project, groups of students will have the option either of applying natural language processing techniques, or of critically evaluating a recent development in AI (of their choice) by applying published techniques to new data. Students cannot audit this course or take it pass/fail
+
+## Learning Outcomes
+
+1. Identify problems where artificial intelligence techniques are applicable
+2. Apply selected basic AI techniques; judge applicability of more advanced techniques.
+3. Participate in the design of systems that act intelligently and learn from experience.
+
+## Prerequisites
+
+This course is primarily aimed at students with technical backgrounds who wish to design and develop products and services using AI. A background in basic statistics is required for the course (95796). Students need at least a basic knowledge of Python to complete the assignments for this course. Students who have not taken 90-812 or 95-888 or have equivalent background will be required to complete supplementary work to learn Python at the beginning of the course.
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/477267
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/456221
+
+## Metadata
+
+**Course Number:** 95-891
+**Title:** Introduction to Artificial Intelligence
+**Units:** 12
+**Key Terms:** Exercises will include hands, Students cannot audit this course or take it pass, AI applications to place developments in the field in historical perspective, machine learning, The course concludes with a discussion of ethical implications of AI, These technologies include search, We will then do a deep dive into some of the applications underlying search, In a final project, The course begins by describing artificial intelligence and provide some examples of AI applications to place developments in the field in historical perspective, recent development in AI

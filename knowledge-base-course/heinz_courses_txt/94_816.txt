@@ -1,0 +1,36 @@
+# 94-816: Generative AI: Applications, Implications, and Governance
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+We have entered the era of Generative AI, which holds transformational potential akin to the industrial revolution or the advent of the Internet. This technology is now capable of comprehending and generating language, code, images, and videos, performing routine digital tasks, and aiding humans in advancing scientific and creative fields. These intelligent capabilities are powering novel AI user experiences such as OpenAI’s ChatGPT, Google’s Gemini, Microsoft’s Copilot and other proprietary and open-source offerings. These innovations can boost human productivity and creativity, but their impact on society is unpredictable long-term. By immersing ourselves in the study of Generative AI, we not only equip ourselves for personal growth but also become architects of a future where we can help steer technology to serve humanity’s highest aspirations. This course explores the broad impacts of generative AI by considering its applications, societal implications, and how organization can govern its usage. We will explore how leveraging AI tools can help us as individuals thrive in our personal and professional lives. We will learn how both governments and private enterprises are seeking to develop beneficial and safe AI aligned with human needs. This course will provide students with practical exposure to the latest AI technologies. Students will learn the art of prompt engineering, how to use AI as a research, writing and thinking tool, and strategies to avoid common AI failure points.
+
+## Learning Outcomes
+
+1. Explore and utilize generative AI tools, learning hands-on ways to integrate them into daily routines through crafting text prompts for diverse tasks. Students will also learn strategies to avoid hallucinations, ensuring the generated outputs are accurate and reliable.
+2. Discover the art of co-authoring with AI, understanding the advantages and limitations of language models in writing.
+3. Gain a high-level understanding of the science behind generative AI, encompassing how it predicts text sequences and creates images. Students will grasp the fundamentals of AI training, fine-tuning, and inference while staying abreast of current trends in the field.
+4. Delve into the societal ramifications of Generative AI through economic, political, ethical, and business perspectives. Engage in discussions to form opinions and debate the potential unforeseen effects of generative AI on society.
+5. Devise public policy strategies aimed at alleviating the adverse impacts of this technology on society.
+6. Pose insightful questions to experts and critically assess their viewpoints.
+7. Learn the principles of responsible AI governance within organizations, including red teaming and responsible release strategies.
+8. Articulate well-informed recommendations to decision-makers on complex issues, presenting concise and substantiated arguments.
+
+## Prerequisites
+
+There are no prerequisites for this class. The course is designed for any student to experience the latest AI technology and explore its societal implications. It is ideal for students either on a policy track or technology track.
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/491177
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/424238
+
+## Metadata
+
+**Course Number:** 94-816
+**Title:** Generative AI: Applications, Implications, and Governance
+**Units:** 6
+**Key Terms:** AI failure points, Microsoft, Google, By immersing ourselves in the study of Generative AI, This course explores the broad impacts of generative AI by considering its applications, routine digital tasks, Internet, These intelligent capabilities are powering novel AI user experiences such as OpenAI, We will explore how leveraging AI tools can help us as individuals thrive in our personal and professional lives, AI as a research

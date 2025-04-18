@@ -1,0 +1,5 @@
+python-dotenv>=0.21.0
+streamlit>=1.18.0
+haystack-ai==2.0.0
+openai>=1.56.0
+watchdog>=4.0.0

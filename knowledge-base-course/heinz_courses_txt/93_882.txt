@@ -1,0 +1,32 @@
+# 93-882: AI and the Future of Creativity in Entertainment
+
+## Course Information
+
+**Units:** 3
+
+## Description
+
+Artificial Intelligence or AI is the science of making machines smart. Generative Artificial Intelligence is an AI system that responds to prompts to create new content including images, text, storytelling, music, video, and film. Based on Natural Language Processing models and utilizing neural networks, it can generate these different media formats by identifying patterns and structures within existing data. It is a probabilistic tool. The use of such Large Language Models and machine learning techniques is a game changer in the entertainment industry. This course introduces the use of AI tools specific to the media business and an overview of related moral complexities that you may face as a working professional in the entertainment industry. We will examine the issues that often arise within an industry that places corporate profits and artistic freedom above all else. Through practical application as well as class discussion, we will highlight how AI is transforming the entertainment industry. In particular, the course will address how quickly AI is disrupting traditional business models, intellectual property rights, and studio production as well as creating tension between creative artists, executives, talent, trade unions, agencies, and audiences.
+
+## Learning Outcomes
+
+1. Provide a basic understanding of essential tools and capabilities focusing on ChatGPT and the general use of AI in the entertainment industry.
+2. Explore AI platforms and software related to film, TV, VR/AR, music, and gaming.
+3. Investigate the ethical concerns related to using AI in the creative industries.
+4. Review current and emergent industry guidelines.
+5. Design and implement a creative project using AI
+
+## Prerequisites
+
+None
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/473632
+
+## Metadata
+
+**Course Number:** 93-882
+**Title:** AI and the Future of Creativity in Entertainment
+**Units:** 3
+**Key Terms:** AI is disrupting traditional business models, The use of such Large Language Models and machine learning techniques is a game changer in the entertainment industry, AI system that responds to prompts to create new content including images, Artificial Intelligence or AI is the science of making machines smart, We will examine the issues that often arise within an industry that places corporate profits and artistic freedom above all else, rights, AI is transforming the entertainment industry, AI is the science of making machines smart, Generative Artificial Intelligence is an AI system that responds to prompts to create new content including images, machine learning techniques is a game changer in the entertainment industry

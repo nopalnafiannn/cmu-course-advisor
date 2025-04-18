@@ -1,0 +1,33 @@
+# 94-808: Management Consulting
+
+## Course Information
+
+**Units:** 12
+
+## Description
+
+This is an applications course exploring the profession of management consulting and the art and science of providing management counsel to organizations in the public and private sectors. The course is designed to provide a framework for collaborating with organizations to solve problems and to execute projects efficiently and effectively. Students will explore and utilize practical tools that will enable them to solve problems and execute projects as external or internal consultants or as individual contributors or leaders within organizations. The course introduces frameworks as well as quantitative and qualitative methods that are typically used in management consulting.
+
+## Learning Outcomes
+
+1. View problems from the perspective of practicing experts in the field.
+2. Utilize quantitative and qualitative methods and interpersonal skills to collaboratively solve problems and execute solutions.
+3. Expose students to the classical literature of the profession.
+4. Prepare solutions to case studies utilizing acquired technical expertise and experience.
+5. Apply course theories and principles to provide consulting services to actual clients.
+
+## Prerequisites
+
+None.
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/473625
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/457003
+
+## Metadata
+
+**Course Number:** 94-808
+**Title:** Management Consulting
+**Units:** 12
+**Key Terms:** This is an applications course exploring the profession of management consulting and the art and science of providing management counsel to organizations in the public and private sectors, Students will explore and utilize practical tools that will enable them to solve problems and execute projects as external or internal consultants or as individual contributors or leaders within organizations, The course is designed to provide a framework for collaborating with organizations to solve problems and to execute projects efficiently and effectively, The course introduces frameworks as well as quantitative and qualitative methods that are typically used in management consulting

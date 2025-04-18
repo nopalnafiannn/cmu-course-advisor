@@ -1,0 +1,28 @@
+# 94-433: Optimization for DAS
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+Please see course syllabus PDF.
+
+## Learning Outcomes
+
+1. Syllabus (David Choi - F24)
+
+## Prerequisites
+
+Please see course syllabus PDF.
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/456999
+
+## Metadata
+
+**Course Number:** 94-433
+**Title:** Optimization for DAS
+**Units:** 6
+**Key Terms:** Please see course syllabus PDF

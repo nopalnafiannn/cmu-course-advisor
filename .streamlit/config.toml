@@ -1,0 +1,3 @@
+# Use polling file watcher to avoid torch.classes attribute errors
+[server]
+fileWatcherType = "poll"

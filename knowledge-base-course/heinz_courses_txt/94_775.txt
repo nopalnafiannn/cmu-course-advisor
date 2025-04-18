@@ -1,0 +1,20 @@
+# 94-775: Unstructured Data Analytics for Policy
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+Organizations like companies, governments, and others are currently gathering a huge amount of data that is composed of various forms such as text, images, audio, and video. The question is how to convert this diverse and disorganized data into useful information. One common issue is that the underlying structure of the data is not always known before analyzing it, which is why it is called "unstructured." This course aims to provide a hands-on approach to analyzing unstructured data. We first investigate how to recognize any potential structure that may be present in the data through utilizing visual representation and other techniques for investigating the data. Once we have indications of what structure may be present in the data, we can use it to make predictions. Throughout the course, we will come across several widely used techniques for analyzing unstructured data. This includes both established methods such as manifold learning, clustering, and topic modeling, as well as newer approaches like deep neural networks for analyzing text, images, and time series. The course will involve a lot of coding using Python and we will also explore using GPU computing through Google Colab.
+
+## Prerequisites
+
+(90819 or 95888) and (95791 or 90803)
+
+## Metadata
+
+**Course Number:** 94-775
+**Title:** Unstructured Data Analytics for Policy
+**Units:** 6
+**Key Terms:** This course aims to provide a hands, Organizations like companies, The question is how to convert this diverse and disorganized data into useful information, Throughout the course, We first investigate how to recognize any potential structure that may be present in the data through utilizing visual representation and other techniques for investigating the data, The course will involve a lot of coding using Python and we will also explore using GPU computing through Google Colab, Python and we will also explore using GPU computing through Google Colab, This includes both established methods such as manifold learning, One common issue is that the underlying structure of the data is not always known before analyzing it, Once we have indications of what structure may be present in the data

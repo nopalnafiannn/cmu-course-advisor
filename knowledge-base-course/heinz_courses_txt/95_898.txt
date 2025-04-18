@@ -1,0 +1,28 @@
+# 95-898: Introduction to Python
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+This course focuses on the fundamentals of computer programming using the Python 3 interpreted programming language. This course is designed for students with little or no programming knowledge. Students will develop their problem solving skills using the top-down procedural programming approach to build standalone software applications. Assignments will include weekly homework, weekly checkpoint quizzes, and a final examination to test essential programming and problem solving skills. Some OOP (object oriented programming) will be used in this course. Learners will study how to build professional, user-friendly computer programs applicable to real-world usage in such areas as public policy and security analysis.
+
+## Learning Outcomes
+
+1. Syllabus (John Ostlund - F24)
+
+## Prerequisites
+
+None
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/460068
+
+## Metadata
+
+**Course Number:** 95-898
+**Title:** Introduction to Python
+**Units:** 6
+**Key Terms:** real, Students will develop their problem solving skills using the top, Some OOP, Learners will study how to build professional, Assignments will include weekly homework, This course is designed for students with little or no programming knowledge, Python, This course focuses on the fundamentals of computer programming using the Python

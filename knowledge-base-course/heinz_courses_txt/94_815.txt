@@ -1,0 +1,34 @@
+# 94-815: Agent-based Modeling and Agentic Technology
+
+## Course Information
+
+**Units:** 6
+
+## Description
+
+Agentic AI is transforming industries—from autonomous decision-making in finance to intelligent policy simulations and gaming AI. With rapid advances in LLM-powered agents, multi-agent collaboration, and AI-driven simulations, agentic technology is now one of the most dynamic areas of research and investment. This course bridges the gap between traditional agent-based modeling (ABM) and modern agentic AI, equipping participants with both foundational principles and cutting-edge techniques for building autonomous, decision-making AI systems. Designed for both AI strategists and developers, the course is offered in two modes: a no-code track for those seeking conceptual and strategic insights into AI-driven multi-agent systems, and a programming track for those wanting hands-on experience using AutoGen, LangChain, and other agent frameworks. Through interactive exercises, real-world case studies, and hands-on implementation, students will explore the evolution of emergent vs. programmed behaviors, the role of LLM-based multi-agent architectures in AI-driven decision-making, and the application of strategic policy simulations, economic modeling, and AI-driven research automation. The course blends theory and practice, ensuring students gain both a deep conceptual understanding and practical skills in designing, deploying, and evaluating autonomous AI agents. It delves into key challenges such as validation, benchmarking, and responsible AI governance, equipping participants with the frameworks necessary to assess the performance, reliability, and ethical considerations of AI-driven agents. By the end of the course, participants will be prepared to leverage agent-based modeling and AI-driven agents for solving complex real-world problems. Whether you’re a business leader, AI researcher, software engineer, or policymaker, this course provides the knowledge and tools to navigate the rapidly evolving landscape of agentic AI and drive innovation in intelligent systems.
+
+## Learning Outcomes
+
+1. Master Foundations of Agent-Based Modeling and Agentic AI – Explain the evolution of agent-based modeling (ABM), its role in complex adaptive systems, and its integration with LLM-based multi-agent architectures, digital twins, and generative agents for real-world decision-making and intelligent simulations.
+2. Differentiate and Apply Emergent vs. Programmed Behaviors – Analyze the distinction between emergent behaviors in self-organizing agents and explicitly programmed decision-making models, applying these concepts to domains such as smart cities, healthcare, and logistics through hands-on simulations.
+3. Design and Implement Specialized AI Agents – Develop tool agents for automation, coding agents for AI-assisted software development, gaming agents for adaptive simulations, economic agents for market modeling, and strategic agents for policy simulations, leveraging frameworks like LangChain, AutoGen, NetLogo, and AnyLogic.
+4. Integrate Large Language Models in Agentic Systems – Apply LLM-based agents to multi-agent interactions, enhancing decision-making with reasoning, memory, and planning capabilities through architectures such as ReAct, Large Action Models (LAMs), and autonomous workflow orchestration.
+5. Leverage Multi-Agent Systems for Real-World Applications – Implement cooperative, competitive, and hybrid multi-agent systems for business automation, economic forecasting, regulatory policy analysis, and autonomous decision-making in complex environments.
+6. Evaluate, Benchmark, and Optimize Agentic AI – Apply agent benchmarking frameworks such as AgentBoard to assess adaptability, robustness, performance, and ethical alignment in multi-agent interactions.
+7. Navigate Risks, Governance, and Societal Impact of AI Agents – Examine AI governance frameworks from OECD, NIST, and regulatory bodies to address risks in agent autonomy, recursive agent design, bias mitigation, security vulnerabilities, and economic or social disruption from agent-driven decision-making.
+
+## Prerequisites
+
+This course is designed for graduate-level students. All students are expected to have a background on machine learning and AI. The programming track assignments require a good understanding of deep learning and Python programming.
+
+## Syllabus Links
+
+* https://api-01.heinz.cmu.edu/syllabus/vwsyllabus/475007
+
+## Metadata
+
+**Course Number:** 94-815
+**Title:** Agent-based Modeling and Agentic Technology
+**Units:** 6
+**Key Terms:** Designed for both AI strategists and developers, AI and drive innovation in intelligent systems, This course bridges the gap between traditional agent, reliability, real, By the end of the course, AI governance, AI researcher, AutoGen, AI agents

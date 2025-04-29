@@ -1,0 +1,979 @@
+[
+  {
+    "id": "query-1",
+    "query": "Who is the instructor for Professional Speaking?",
+    "expected_answer_keywords": [
+      "Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "query-2",
+    "query": "What textbook is used in Python Programming II?",
+    "expected_answer_keywords": [
+      "Python for Data Analysis",
+      "Wes McKinney"
+    ]
+  },
+  {
+    "id": "query-3",
+    "query": "What are the prerequisites for Python Programming II?",
+    "expected_answer_keywords": [
+      "Python Programming I",
+      "90-812"
+    ]
+  },
+  {
+    "id": "query-4",
+    "query": "What grading components are listed for Professional Speaking?",
+    "expected_answer_keywords": [
+      "Presentations",
+      "Peer Review",
+      "Project Stages"
+    ]
+  },
+  {
+    "id": "query-5",
+    "query": "What are the main topics covered in Policy Research?",
+    "expected_answer_keywords": [
+      "Ethical Penetration Testing",
+      "Survey Research",
+      "Data Analysis"
+    ]
+  },
+  {
+    "id": "query-6",
+    "query": "Which course teaches data cleaning skills?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-7",
+    "query": "Where is Dr. Fitzsimmons' office located?",
+    "expected_answer_keywords": [
+      "HBH 2101F"
+    ]
+  },
+  {
+    "id": "query-8",
+    "query": "What skills are taught in Professional Speaking?",
+    "expected_answer_keywords": [
+      "Delivery Techniques",
+      "Adapting Content",
+      "Audience Awareness"
+    ]
+  },
+  {
+    "id": "query-9",
+    "query": "What is the final project about in Policy Research?",
+    "expected_answer_keywords": [
+      "Applied Research Project",
+      "Fieldwork",
+      "Evaluation"
+    ]
+  },
+  {
+    "id": "query-10",
+    "query": "Which course mentions Web Scraping?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-11",
+    "query": "What library is taught for dataframes manipulation?",
+    "expected_answer_keywords": [
+      "pandas"
+    ]
+  },
+  {
+    "id": "query-12",
+    "query": "What is the objective of Ethical Penetration Testing course?",
+    "expected_answer_keywords": [
+      "Ethical Hacking",
+      "Security Assessment"
+    ]
+  },
+  {
+    "id": "query-13",
+    "query": "List software tools covered in Python Programming II.",
+    "expected_answer_keywords": [
+      "pandas",
+      "Regular Expressions",
+      "APIs"
+    ]
+  },
+  {
+    "id": "query-14",
+    "query": "Who are the TAs for Python Programming II?",
+    "expected_answer_keywords": [
+      "Shambhavi Bhushan",
+      "Snehal Khandve"
+    ]
+  },
+  {
+    "id": "query-15",
+    "query": "What kind of speeches are students asked to give in Professional Speaking?",
+    "expected_answer_keywords": [
+      "Lightning Talks",
+      "Presentation Projects"
+    ]
+  },
+  {
+    "id": "query-16",
+    "query": "Is group work required in Policy Research?",
+    "expected_answer_keywords": [
+      "Yes",
+      "Group Project"
+    ]
+  },
+  {
+    "id": "query-17",
+    "query": "Which course covers API usage?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-18",
+    "query": "What is the attendance policy for Professional Speaking?",
+    "expected_answer_keywords": [
+      "Mandatory",
+      "Participation"
+    ]
+  },
+  {
+    "id": "query-19",
+    "query": "Is late submission allowed in Python Programming II?",
+    "expected_answer_keywords": [
+      "No late work accepted"
+    ]
+  },
+  {
+    "id": "query-20",
+    "query": "Who should students contact for accommodation in Professional Speaking?",
+    "expected_answer_keywords": [
+      "Dr. Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "query-21",
+    "query": "Who is the instructor for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "query-22",
+    "query": "What textbook is used in Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Python for Data Analysis",
+      "Wes McKinney"
+    ]
+  },
+  {
+    "id": "query-23",
+    "query": "What are the prerequisites for Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming I",
+      "90-812"
+    ]
+  },
+  {
+    "id": "query-24",
+    "query": "What grading components are listed for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Presentations",
+      "Peer Review",
+      "Project Stages"
+    ]
+  },
+  {
+    "id": "query-25",
+    "query": "What are the main topics covered in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Ethical Penetration Testing",
+      "Survey Research",
+      "Data Analysis"
+    ]
+  },
+  {
+    "id": "query-26",
+    "query": "Which course teaches data cleaning skills? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-27",
+    "query": "Where is Dr. Fitzsimmons' office located? (details)?",
+    "expected_answer_keywords": [
+      "HBH 2101F"
+    ]
+  },
+  {
+    "id": "query-28",
+    "query": "What skills are taught in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Delivery Techniques",
+      "Adapting Content",
+      "Audience Awareness"
+    ]
+  },
+  {
+    "id": "query-29",
+    "query": "What is the final project about in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Applied Research Project",
+      "Fieldwork",
+      "Evaluation"
+    ]
+  },
+  {
+    "id": "query-30",
+    "query": "Which course mentions Web Scraping? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-31",
+    "query": "What library is taught for dataframes manipulation? (details)?",
+    "expected_answer_keywords": [
+      "pandas"
+    ]
+  },
+  {
+    "id": "query-32",
+    "query": "What is the objective of Ethical Penetration Testing course? (details)?",
+    "expected_answer_keywords": [
+      "Ethical Hacking",
+      "Security Assessment"
+    ]
+  },
+  {
+    "id": "query-33",
+    "query": "List software tools covered in Python Programming II. (details)?",
+    "expected_answer_keywords": [
+      "pandas",
+      "Regular Expressions",
+      "APIs"
+    ]
+  },
+  {
+    "id": "query-34",
+    "query": "Who are the TAs for Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Shambhavi Bhushan",
+      "Snehal Khandve"
+    ]
+  },
+  {
+    "id": "query-35",
+    "query": "What kind of speeches are students asked to give in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Lightning Talks",
+      "Presentation Projects"
+    ]
+  },
+  {
+    "id": "query-36",
+    "query": "Is group work required in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Yes",
+      "Group Project"
+    ]
+  },
+  {
+    "id": "query-37",
+    "query": "Which course covers API usage? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-38",
+    "query": "What is the attendance policy for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Mandatory",
+      "Participation"
+    ]
+  },
+  {
+    "id": "query-39",
+    "query": "Is late submission allowed in Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "No late work accepted"
+    ]
+  },
+  {
+    "id": "query-40",
+    "query": "Who should students contact for accommodation in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Dr. Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "query-41",
+    "query": "Who is the instructor for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "query-42",
+    "query": "What textbook is used in Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Python for Data Analysis",
+      "Wes McKinney"
+    ]
+  },
+  {
+    "id": "query-43",
+    "query": "What are the prerequisites for Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming I",
+      "90-812"
+    ]
+  },
+  {
+    "id": "query-44",
+    "query": "What grading components are listed for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Presentations",
+      "Peer Review",
+      "Project Stages"
+    ]
+  },
+  {
+    "id": "query-45",
+    "query": "What are the main topics covered in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Ethical Penetration Testing",
+      "Survey Research",
+      "Data Analysis"
+    ]
+  },
+  {
+    "id": "query-46",
+    "query": "Which course teaches data cleaning skills? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-47",
+    "query": "Where is Dr. Fitzsimmons' office located? (details)?",
+    "expected_answer_keywords": [
+      "HBH 2101F"
+    ]
+  },
+  {
+    "id": "query-48",
+    "query": "What skills are taught in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Delivery Techniques",
+      "Adapting Content",
+      "Audience Awareness"
+    ]
+  },
+  {
+    "id": "query-49",
+    "query": "What is the final project about in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Applied Research Project",
+      "Fieldwork",
+      "Evaluation"
+    ]
+  },
+  {
+    "id": "query-50",
+    "query": "Which course mentions Web Scraping? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-51",
+    "query": "What library is taught for dataframes manipulation? (details)?",
+    "expected_answer_keywords": [
+      "pandas"
+    ]
+  },
+  {
+    "id": "query-52",
+    "query": "What is the objective of Ethical Penetration Testing course? (details)?",
+    "expected_answer_keywords": [
+      "Ethical Hacking",
+      "Security Assessment"
+    ]
+  },
+  {
+    "id": "query-53",
+    "query": "List software tools covered in Python Programming II. (details)?",
+    "expected_answer_keywords": [
+      "pandas",
+      "Regular Expressions",
+      "APIs"
+    ]
+  },
+  {
+    "id": "query-54",
+    "query": "Who are the TAs for Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Shambhavi Bhushan",
+      "Snehal Khandve"
+    ]
+  },
+  {
+    "id": "query-55",
+    "query": "What kind of speeches are students asked to give in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Lightning Talks",
+      "Presentation Projects"
+    ]
+  },
+  {
+    "id": "query-56",
+    "query": "Is group work required in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Yes",
+      "Group Project"
+    ]
+  },
+  {
+    "id": "query-57",
+    "query": "Which course covers API usage? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-58",
+    "query": "What is the attendance policy for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Mandatory",
+      "Participation"
+    ]
+  },
+  {
+    "id": "query-59",
+    "query": "Is late submission allowed in Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "No late work accepted"
+    ]
+  },
+  {
+    "id": "query-60",
+    "query": "Who should students contact for accommodation in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Dr. Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "query-61",
+    "query": "Who is the instructor for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "query-62",
+    "query": "What textbook is used in Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Python for Data Analysis",
+      "Wes McKinney"
+    ]
+  },
+  {
+    "id": "query-63",
+    "query": "What are the prerequisites for Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming I",
+      "90-812"
+    ]
+  },
+  {
+    "id": "query-64",
+    "query": "What grading components are listed for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Presentations",
+      "Peer Review",
+      "Project Stages"
+    ]
+  },
+  {
+    "id": "query-65",
+    "query": "What are the main topics covered in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Ethical Penetration Testing",
+      "Survey Research",
+      "Data Analysis"
+    ]
+  },
+  {
+    "id": "query-66",
+    "query": "Which course teaches data cleaning skills? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-67",
+    "query": "Where is Dr. Fitzsimmons' office located? (details)?",
+    "expected_answer_keywords": [
+      "HBH 2101F"
+    ]
+  },
+  {
+    "id": "query-68",
+    "query": "What skills are taught in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Delivery Techniques",
+      "Adapting Content",
+      "Audience Awareness"
+    ]
+  },
+  {
+    "id": "query-69",
+    "query": "What is the final project about in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Applied Research Project",
+      "Fieldwork",
+      "Evaluation"
+    ]
+  },
+  {
+    "id": "query-70",
+    "query": "Which course mentions Web Scraping? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-71",
+    "query": "What library is taught for dataframes manipulation? (details)?",
+    "expected_answer_keywords": [
+      "pandas"
+    ]
+  },
+  {
+    "id": "query-72",
+    "query": "What is the objective of Ethical Penetration Testing course? (details)?",
+    "expected_answer_keywords": [
+      "Ethical Hacking",
+      "Security Assessment"
+    ]
+  },
+  {
+    "id": "query-73",
+    "query": "List software tools covered in Python Programming II. (details)?",
+    "expected_answer_keywords": [
+      "pandas",
+      "Regular Expressions",
+      "APIs"
+    ]
+  },
+  {
+    "id": "query-74",
+    "query": "Who are the TAs for Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Shambhavi Bhushan",
+      "Snehal Khandve"
+    ]
+  },
+  {
+    "id": "query-75",
+    "query": "What kind of speeches are students asked to give in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Lightning Talks",
+      "Presentation Projects"
+    ]
+  },
+  {
+    "id": "query-76",
+    "query": "Is group work required in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Yes",
+      "Group Project"
+    ]
+  },
+  {
+    "id": "query-77",
+    "query": "Which course covers API usage? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-78",
+    "query": "What is the attendance policy for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Mandatory",
+      "Participation"
+    ]
+  },
+  {
+    "id": "query-79",
+    "query": "Is late submission allowed in Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "No late work accepted"
+    ]
+  },
+  {
+    "id": "query-80",
+    "query": "Who should students contact for accommodation in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Dr. Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "query-81",
+    "query": "Who is the instructor for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "query-82",
+    "query": "What textbook is used in Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Python for Data Analysis",
+      "Wes McKinney"
+    ]
+  },
+  {
+    "id": "query-83",
+    "query": "What are the prerequisites for Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming I",
+      "90-812"
+    ]
+  },
+  {
+    "id": "query-84",
+    "query": "What grading components are listed for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Presentations",
+      "Peer Review",
+      "Project Stages"
+    ]
+  },
+  {
+    "id": "query-85",
+    "query": "What are the main topics covered in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Ethical Penetration Testing",
+      "Survey Research",
+      "Data Analysis"
+    ]
+  },
+  {
+    "id": "query-86",
+    "query": "Which course teaches data cleaning skills? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-87",
+    "query": "Where is Dr. Fitzsimmons' office located? (details)?",
+    "expected_answer_keywords": [
+      "HBH 2101F"
+    ]
+  },
+  {
+    "id": "query-88",
+    "query": "What skills are taught in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Delivery Techniques",
+      "Adapting Content",
+      "Audience Awareness"
+    ]
+  },
+  {
+    "id": "query-89",
+    "query": "What is the final project about in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Applied Research Project",
+      "Fieldwork",
+      "Evaluation"
+    ]
+  },
+  {
+    "id": "query-90",
+    "query": "Which course mentions Web Scraping? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-91",
+    "query": "What library is taught for dataframes manipulation? (details)?",
+    "expected_answer_keywords": [
+      "pandas"
+    ]
+  },
+  {
+    "id": "query-92",
+    "query": "What is the objective of Ethical Penetration Testing course? (details)?",
+    "expected_answer_keywords": [
+      "Ethical Hacking",
+      "Security Assessment"
+    ]
+  },
+  {
+    "id": "query-93",
+    "query": "List software tools covered in Python Programming II. (details)?",
+    "expected_answer_keywords": [
+      "pandas",
+      "Regular Expressions",
+      "APIs"
+    ]
+  },
+  {
+    "id": "query-94",
+    "query": "Who are the TAs for Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "Shambhavi Bhushan",
+      "Snehal Khandve"
+    ]
+  },
+  {
+    "id": "query-95",
+    "query": "What kind of speeches are students asked to give in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Lightning Talks",
+      "Presentation Projects"
+    ]
+  },
+  {
+    "id": "query-96",
+    "query": "Is group work required in Policy Research? (details)?",
+    "expected_answer_keywords": [
+      "Yes",
+      "Group Project"
+    ]
+  },
+  {
+    "id": "query-97",
+    "query": "Which course covers API usage? (details)?",
+    "expected_answer_keywords": [
+      "Python Programming II"
+    ]
+  },
+  {
+    "id": "query-98",
+    "query": "What is the attendance policy for Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Mandatory",
+      "Participation"
+    ]
+  },
+  {
+    "id": "query-99",
+    "query": "Is late submission allowed in Python Programming II? (details)?",
+    "expected_answer_keywords": [
+      "No late work accepted"
+    ]
+  },
+  {
+    "id": "query-100",
+    "query": "Who should students contact for accommodation in Professional Speaking? (details)?",
+    "expected_answer_keywords": [
+      "Dr. Rebekah Fitzsimmons"
+    ]
+  },
+  {
+    "id": "ai-query-1",
+    "query": "Who is the instructor for Introduction to Artificial Intelligence?",
+    "expected_answer_keywords": [
+      "David Steier"
+    ]
+  },
+  {
+    "id": "ai-query-2",
+    "query": "Who are the TAs for Introduction to Artificial Intelligence?",
+    "expected_answer_keywords": [
+      "Yubo Li",
+      "Prince Wang"
+    ]
+  },
+  {
+    "id": "ai-query-3",
+    "query": "What is the main textbook for the AI course?",
+    "expected_answer_keywords": [
+      "Artificial Intelligence: A Modern Approach",
+      "Russell",
+      "Norvig"
+    ]
+  },
+  {
+    "id": "ai-query-4",
+    "query": "What Python prerequisite is needed for Introduction to AI?",
+    "expected_answer_keywords": [
+      "Basic Python Knowledge",
+      "90-812",
+      "95-888"
+    ]
+  },
+  {
+    "id": "ai-query-5",
+    "query": "When is HW1 due for Introduction to AI?",
+    "expected_answer_keywords": [
+      "February 1"
+    ]
+  },
+  {
+    "id": "ai-query-6",
+    "query": "What topics are covered in HW2?",
+    "expected_answer_keywords": [
+      "Classification",
+      "Clustering"
+    ]
+  },
+  {
+    "id": "ai-query-7",
+    "query": "What is the grading penalty for late assignments?",
+    "expected_answer_keywords": [
+      "10% per day"
+    ]
+  },
+  {
+    "id": "ai-query-8",
+    "query": "What is the final project requirement?",
+    "expected_answer_keywords": [
+      "Group Project",
+      "AI-based Application"
+    ]
+  },
+  {
+    "id": "ai-query-9",
+    "query": "Which chapter covers Search topics?",
+    "expected_answer_keywords": [
+      "Chapter 3",
+      "Chapter 5"
+    ]
+  },
+  {
+    "id": "ai-query-10",
+    "query": "What topics are taught in Deep Learning week?",
+    "expected_answer_keywords": [
+      "Neural Networks",
+      "Convolutional Networks",
+      "Transfer Learning"
+    ]
+  },
+  {
+    "id": "ai-query-11",
+    "query": "When is the first quiz scheduled?",
+    "expected_answer_keywords": [
+      "January 30"
+    ]
+  },
+  {
+    "id": "ai-query-12",
+    "query": "What are the learning objectives of the AI course?",
+    "expected_answer_keywords": [
+      "Apply AI techniques",
+      "Design intelligent systems"
+    ]
+  },
+  {
+    "id": "ai-query-13",
+    "query": "What AI application domains are discussed?",
+    "expected_answer_keywords": [
+      "Healthcare",
+      "Autonomous Vehicles",
+      "Ethics"
+    ]
+  },
+  {
+    "id": "ai-query-14",
+    "query": "What is covered in Week 9?",
+    "expected_answer_keywords": [
+      "Speech Recognition",
+      "LLMs",
+      "RAG"
+    ]
+  },
+  {
+    "id": "ai-query-15",
+    "query": "When is HW5 due?",
+    "expected_answer_keywords": [
+      "April 10"
+    ]
+  },
+  {
+    "id": "ai-query-16",
+    "query": "Which week discusses Computer Vision?",
+    "expected_answer_keywords": [
+      "Week 7"
+    ]
+  },
+  {
+    "id": "ai-query-17",
+    "query": "Which chapters deal with uncertainty and Bayesian Networks?",
+    "expected_answer_keywords": [
+      "Chapter 12",
+      "Chapter 13"
+    ]
+  },
+  {
+    "id": "ai-query-18",
+    "query": "Which chapter in Russell & Norvig discusses Deep Learning?",
+    "expected_answer_keywords": [
+      "Chapter 21"
+    ]
+  },
+  {
+    "id": "ai-query-19",
+    "query": "What is the penalty for more than 2 absences?",
+    "expected_answer_keywords": [
+      "Proportional deduction"
+    ]
+  },
+  {
+    "id": "ai-query-20",
+    "query": "Is there a final exam for Introduction to AI?",
+    "expected_answer_keywords": [
+      "No Final Exam"
+    ]
+  },
+  {
+    "id": "ai-query-21",
+    "query": "Name one optional reading for transformers.",
+    "expected_answer_keywords": [
+      "BERT paper"
+    ]
+  },
+  {
+    "id": "ai-query-22",
+    "query": "Where will most lectures be held?",
+    "expected_answer_keywords": [
+      "Hamburg Hall 1204"
+    ]
+  },
+  {
+    "id": "ai-query-23",
+    "query": "What is the policy on use of generative AI tools?",
+    "expected_answer_keywords": [
+      "Explicitly permitted only if stated",
+      "Citation required"
+    ]
+  },
+  {
+    "id": "ai-query-24",
+    "query": "Who provides mental health support at CMU?",
+    "expected_answer_keywords": [
+      "Counseling and Psychological Services"
+    ]
+  },
+  {
+    "id": "ai-query-25",
+    "query": "What are the dates for Spring Carnival break?",
+    "expected_answer_keywords": [
+      "April 11"
+    ]
+  }
+]

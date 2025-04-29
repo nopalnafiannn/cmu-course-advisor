@@ -27,3 +27,18 @@ try:
     print("Applied torch._classes patch for Streamlit compatibility")
 except (ImportError, AttributeError) as e:
     print(f"Could not apply torch._classes patch: {e}")
+# Patch streamlit local_sources_watcher to skip scanning torch modules
+try:
+    import streamlit.watcher.local_sources_watcher as _lsw
+    _orig_get_module_paths = _lsw.get_module_paths
+    def _safe_get_module_paths(module):
+        if getattr(module, "__name__", "").startswith("torch"):
+            return set()
+        try:
+            return _orig_get_module_paths(module)
+        except Exception:
+            return set()
+    _lsw.get_module_paths = _safe_get_module_paths
+    print("Patched streamlit local_sources_watcher.get_module_paths to skip torch modules")
+except Exception:
+    pass

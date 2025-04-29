@@ -7,7 +7,7 @@ import json
 from haystack import Pipeline
 from haystack.dataclasses import Document, ChatMessage
 from haystack.document_stores.in_memory import InMemoryDocumentStore
-from haystack.components.retrievers.in_memory import InMemoryEmbeddingRetriever
+from haystack.components.retrievers.in_memory import InMemoryEmbeddingRetriever, InMemoryBM25Retriever
 from haystack.components.embedders import OpenAITextEmbedder, OpenAIDocumentEmbedder
 from haystack.components.generators import OpenAIGenerator
 from haystack.components.builders import PromptBuilder
@@ -63,17 +63,18 @@ def build_index():
 
     # JSON metadata processing skipped; using only text and markdown sources
     # Chunk docs to avoid OpenAI context length errors
-    def chunk_documents(docs, chunk_size=100):
+    def chunk_documents(docs, chunk_size=250, overlap=50):
         chunked = []
         for doc in docs:
             words = doc.content.split()
             if len(words) <= chunk_size:
                 chunked.append(doc)
             else:
-                for i in range(0, len(words), chunk_size):
-                    chunk_text = " ".join(words[i : i + chunk_size])
+                for i in range(0, len(words), chunk_size - overlap):
+                    end_idx = min(i + chunk_size, len(words))
+                    chunk_text = " ".join(words[i : end_idx])
                     meta = doc.meta.copy()
-                    meta["chunk"] = i // chunk_size
+                    meta["chunk"] = i // (chunk_size - overlap)
                     chunked.append(Document(content=chunk_text, meta=meta))
         return chunked
 
@@ -153,12 +154,18 @@ def build_index():
 def create_rag_pipeline(document_store):
     """Create the RAG pipeline with user profile support"""
     text_embedder = OpenAITextEmbedder(model="text-embedding-3-small")
-    retriever = InMemoryEmbeddingRetriever(
+    # Embedding retriever
+    embedding_retriever = InMemoryEmbeddingRetriever(
         document_store=document_store,
-        top_k=10,
+        top_k=25,
         scale_score=True
     )
-    generator = OpenAIGenerator(model="gpt-4o-mini")
+    # BM25 retriever for keyword-based search
+    bm25_retriever = InMemoryBM25Retriever(
+        document_store=document_store,
+        top_k=25
+    )
+    generator = OpenAIGenerator(model="gpt-4-turbo")
     prompt_builder = PromptBuilder(
         template="""
 You are a friendly and helpful course advisor. Respond in a positive, friendly, and encouraging tone.
@@ -191,14 +198,28 @@ If the user message contains a greeting like "hi", "hello", or similar, respond 
 After providing your answer, include a relevant follow-up question to continue the conversation.
 """
     )
+    
+    # Custom hybrid retrieval component
+    from haystack.components.joiners.document_joiner import DocumentJoiner
+    
+    # Create a joiner to combine results from both retrievers
+    document_merger = DocumentJoiner(join_mode="concatenate")
+    
     rag_pipeline = Pipeline()
     rag_pipeline.add_component("text_embedder", text_embedder)
-    rag_pipeline.add_component("retriever", retriever)
+    rag_pipeline.add_component("embedding_retriever", embedding_retriever)
+    rag_pipeline.add_component("bm25_retriever", bm25_retriever)
+    rag_pipeline.add_component("document_merger", document_merger)
     rag_pipeline.add_component("prompt_builder", prompt_builder)
     rag_pipeline.add_component("generator", generator)
-    rag_pipeline.connect("text_embedder.embedding", "retriever.query_embedding")
-    rag_pipeline.connect("retriever.documents", "prompt_builder.documents")
+    
+    # Connect the components
+    rag_pipeline.connect("text_embedder.embedding", "embedding_retriever.query_embedding")
+    rag_pipeline.connect("embedding_retriever.documents", "document_merger.documents")
+    rag_pipeline.connect("bm25_retriever.documents", "document_merger.documents")
+    rag_pipeline.connect("document_merger.documents", "prompt_builder.documents")
     rag_pipeline.connect("prompt_builder.prompt", "generator.prompt")
+    
     return rag_pipeline
 
 def extract_course_number(query):
@@ -248,6 +269,82 @@ def extract_course_title(document_store, query: str) -> str | None:
             return title_map[title]
     return None
 
+def parse_course_file(course_code: str) -> tuple[dict[str, str], Path] | tuple[None, None]:
+    """
+    Load and split the raw course .txt file into sections by header.
+    Returns a dict of section title -> content, and the file path.
+    """
+    # locate the course text file
+    base = Path(__file__).resolve().parent / "knowledge-base-course" / "heinz_courses_txt"
+    # normalized file name uses underscore
+    fname = f"{course_code}.txt"
+    file_path = base / fname
+    # fallback to hyphen if needed
+    if not file_path.exists():
+        alt = f"{course_code.replace('_','-')}.txt"
+        file_path = base / alt
+        if not file_path.exists():
+            return None, None
+    # read content
+    try:
+        text = file_path.read_text(encoding="utf-8")
+    except Exception:
+        text = file_path.read_text(encoding="latin-1")
+    lines = text.splitlines()
+    sections: dict[str, str] = {}
+    current: str | None = None
+    for line in lines:
+        if line.startswith("# "):
+            # title line
+            sections['Title'] = line.lstrip('# ').strip()
+            current = None
+        elif line.startswith("## "):
+            # section header
+            header = line.lstrip('# ').strip()
+            sections[header] = ''
+            current = header
+        else:
+            if current:
+                sections[current] += line + '\n'
+    return sections, file_path
+
+def get_course_info(course_code: str, query: str) -> tuple[str, Path] | tuple[None, None]:
+    """
+    Given a course code and user query, return the exact matching section(s) of the course file.
+    """
+    sections, file_path = parse_course_file(course_code)
+    if not sections:
+        return None, None
+    q = query.lower()
+    # map query keywords to section titles
+    keyword_map = {
+        'prerequisite': 'Prerequisites',
+        'learning outcome': 'Learning Outcomes',
+        'description': 'Description',
+        'course information': 'Course Information',
+        'unit': 'Course Information',
+        'syllabus': 'Syllabus Links',
+    }
+    # if user asks for a specific section, return only that
+    for key, section in keyword_map.items():
+        if key in q and section in sections:
+            content = sections[section].strip()
+            # format as markdown
+            answer = f"**{sections.get('Title','')}**\n\n**{section}:**\n{content}"
+            return answer, file_path
+    # otherwise return full course info in a standard order
+    parts: list[str] = []
+    # title
+    if 'Title' in sections:
+        parts.append(f"**{sections['Title']}**")
+    # ordered keys
+    for section in ['Course Information', 'Description', 'Learning Outcomes', 'Prerequisites', 'Syllabus Links']:
+        if section in sections:
+            text = sections[section].strip()
+            parts.append(f"**{section}:**\n{text}")
+    answer = '\n\n'.join(parts)
+    return answer, file_path
+
 def answer_query(document_store, pipeline, query, profile, chat_history=None):
     """Process a query through the RAG pipeline including user profile and chat history"""
     # Check for greetings and respond directly without RAG
@@ -256,18 +353,28 @@ def answer_query(document_store, pipeline, query, profile, chat_history=None):
     if re.search(greeting_pattern, query.lower()) and len(query.split()) < 4:
         return f"Hello! I'm your CMU course advisor. How can I help you with course selection today? Are you looking for courses in a specific area?", []
     
+    # Try to detect a specific course code in the user query
     course_code = extract_course_number(query)
+    # If a code was found, try to return exact course info directly
+    if course_code:
+        exact, path = get_course_info(course_code, query)
+        if exact:
+            # return the exact section(s) from the course file without generative LLM
+            return exact, [str(path)]
     # If no explicit course code in query, attempt to infer by matching course title
     if not course_code:
         inferred = extract_course_title(document_store, query)
         if inferred:
             course_code = inferred
-    retriever_params = {}
+    
+    embedding_retriever_params = {}
+    bm25_retriever_params = {"query": query}
     
     # First try with exact course filtering if a course code was found
     if course_code:
-        retriever_params["filters"] = {"field": "course", "operator": "==", "value": course_code}
-        retriever_params["top_k"] = 15  # Increased from 10 to get more relevant documents
+        embedding_retriever_params["filters"] = {"field": "course", "operator": "==", "value": course_code}
+        embedding_retriever_params["top_k"] = 30  # Increased from 15 to get more comprehensive document coverage
+        bm25_retriever_params["filters"] = {"field": "course", "operator": "==", "value": course_code}
     
     # Format chat history for context
     history_context = ""
@@ -278,10 +385,11 @@ def answer_query(document_store, pipeline, query, profile, chat_history=None):
             if role and content:
                 history_context += f"{role.capitalize()}: {content}\n"
     
-    # Run the RAG pipeline
+    # Run the RAG pipeline with hybrid retrieval
     result = pipeline.run({
         "text_embedder": {"text": query},
-        "retriever": retriever_params,
+        "embedding_retriever": embedding_retriever_params,
+        "bm25_retriever": bm25_retriever_params,
         "prompt_builder": {
             "profile": profile, 
             "query": query,
@@ -291,7 +399,8 @@ def answer_query(document_store, pipeline, query, profile, chat_history=None):
     
     answer = result["generator"]["replies"][0]
     
-    # Get similar documents for sources attribution
+    # Get similar documents for sources attribution from both retrievers
+    # First use the embedding retriever results
     text_embedder = pipeline.get_component("text_embedder")
     query_embedding = text_embedder.run(text=query)["embedding"]
     
@@ -374,7 +483,57 @@ def run_test_query():
     for source in sources:
         print(f"- {source}")
 
+def evaluate_retrievers(document_store, sample_queries, k=5):
+    """Evaluate BM25 and Embedding retrievers on sample queries."""
+    bm25_retriever = InMemoryBM25Retriever(document_store=document_store)
+    emb_retriever = InMemoryEmbeddingRetriever(
+        document_store=document_store,
+        top_k=k,
+        scale_score=True
+    )
+    results = {}
+    for name, retr in [("BM25", bm25_retriever), ("Embedding", emb_retriever)]:
+        top1_correct = 0
+        topk_correct = 0
+        for query, expected in sample_queries:
+            expected_meta = expected.replace("-", "_")
+            # Use the appropriate retrieval method depending on the retriever implementation
+            if hasattr(retr, "retrieve"):
+                docs = retr.retrieve(query=query, top_k=k)
+            elif hasattr(retr, "get_top_k"):
+                docs = retr.get_top_k(query, k)
+            else:
+                raise AttributeError(f"Retriever {name} has no 'retrieve' or 'get_top_k' method")
+            retrieved_codes = [doc.meta.get("course") for doc in docs]
+            if retrieved_codes:
+                if retrieved_codes[0] == expected_meta:
+                    top1_correct += 1
+                if expected_meta in retrieved_codes:
+                    topk_correct += 1
+        total = len(sample_queries)
+        results[name] = {
+            "top1": top1_correct / total,
+            "topk": topk_correct / total
+        }
+    print("\nRetriever Evaluation:")
+    header = f"{'Retriever':<15}{'Top-1 Acc':>12}{'Top-'+str(k)+' Acc':>12}"
+    print(header)
+    print("-" * len(header))
+    for name, metrics in results.items():
+        print(f"{name:<15}{metrics['top1']*100:12.2f}{metrics['topk']*100:12.2f}")
+
 if __name__ == "__main__":
+    # Smoke-test retrievers
+    document_store = build_index()
+    sample_queries = [
+        ("Which course covers machine learning with Python?", "95-865"),
+        ("Intro to econometric theory prerequisites?", "90-906"),
+        ("What programming course teaches data structures?", "95-891"),
+        ("Which course introduces database systems?", "95-741"),
+        ("Which advanced AI course requires linear algebra?", "95-843"),
+    ]
+    evaluate_retrievers(document_store, sample_queries, k=5)
+    # Interactive or test mode
     interactive_mode = True
     if interactive_mode:
         run_chat()

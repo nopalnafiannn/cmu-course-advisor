@@ -1,13 +1,27 @@
-# CMU Course Advisor Chatbot
+# CMU Course Advisor
 
-An interactive chatbot that helps students find and explore Carnegie Mellon University courses using a profile-aware RAG (Retrieval-Augmented Generation) system.
+An intelligent system that helps students find and explore Carnegie Mellon University Heinz College courses using a profile-aware RAG (Retrieval-Augmented Generation) architecture.
+
+## Team member
+- Naufal Nafian
+- Pablo Zavala
 
 ## Features
 
 - Personalized course recommendations based on user interest and experience level
+- Hybrid retrieval system combining semantic search (embeddings) and keyword search (BM25)
 - Interactive chat interface with Streamlit
 - Command-line interface for quick questions
 - RAG architecture with Haystack for accurate, contextualized responses
+- Embedding cache for improved performance
+
+## Architecture
+
+- **Document Processing**: Course descriptions and syllabi are indexed from markdown/text files
+- **Retrieval System**: Combines OpenAI embeddings (text-embedding-3-small) with BM25 retrieval
+- **Generation**: Uses GPT-4 Turbo to create natural language responses
+- **User Profiling**: Captures interest fields and experience levels to personalize recommendations
+- **Evaluation Framework**: Supports measurement of retrieval and generation quality metrics
 
 ## Installation
 
@@ -42,7 +56,7 @@ streamlit run streamlit_app.py
 
 This will open a web interface where you can:
 1. Enter your interests and experience level
-2. Ask questions about CMU courses
+2. Ask questions about CMU Heinz College courses
 
 ### Command Line Interface
 
@@ -51,6 +65,14 @@ python haystack_rag_advisor_profiled.py
 ```
 
 Follow the prompts to enter your interests and ask questions.
+
+### Evaluation
+
+```bash
+python evaluate_rag.py
+```
+
+Runs the evaluation framework to measure system performance.
 
 ## Troubleshooting
 
@@ -68,7 +90,12 @@ If you encounter issues:
 
 - `streamlit_app.py` - Web interface built with Streamlit
 - `haystack_rag_advisor_profiled.py` - Core RAG functionality
+- `evaluate_rag.py` - Evaluation framework
 - `knowledge-base-course/` - Directory containing course data
+  - `heinz_courses_md/` - Course descriptions in markdown
+  - `heinz_courses_txt/` - Course descriptions in text
+  - `syllabi_heinz_courses_md/` - Course syllabi
+- `document_embeddings_cache.pkl` - Cached document embeddings
 - `requirements.txt` - Project dependencies
 
 ## License
